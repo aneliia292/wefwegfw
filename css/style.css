@@ -1,0 +1,297 @@
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*main*/
+
+
+.main{
+    background: url(../img/pic1cv.jpg) no-repeat center center / cover;
+}
+
+.main__wrap{
+    padding: 250px 0 370px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.main__title{
+    color: white;
+    font-size: 36px;
+}
+
+.main__texts{
+    color: white;
+    font-size: 24px;
+}
+
+.main__btn{
+    font-size: 16px;
+    color: white;
+    background-color: #8DD83D;
+    padding: 15px 40px;
+    border-radius: 4px
+}
+
+.main__btn2{
+    font-size: 16px;
+    color: white;
+    background-color: #686C6F;
+    padding: 15px 40px;
+    border-radius: 4px;
+}
+
+/*header*/
+
+.header{
+    background-color: #373A3C;
+}
+
+.header__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 70px;
+    display: flex;
+}
+
+.header__block{
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-item{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    padding: 20px;
+}
+
+.header__link{
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.header__link li{
+    display: flex;
+    align-items: center;
+}
+
+.header__link img{
+    width: 20px;
+    height: 20px;
+}
+
+.header__textbtn{
+    color: #435766;
+    background-color: white;
+    padding: 10px 65px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.header__pic{
+    margin-right: 30px;
+
+}
+
+
+/*play*/
+
+.play{
+    background-color: #686C6F;
+}
+
+.play__container{
+    width: 1400px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 110px;
+}
+
+.play__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.play__title{
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.play__text{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    
+}
+
+.play__logo{
+    text-align: center;
+    padding: 60px 0px 60px 0px;
+    width: 100%;
+}
+
+.play__card{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.play__card img{
+    width: 430px;
+    display: block;
+}
+
+
+/*box*/
+
+
+.box{
+    background: url(../img/back2.jpg) no-repeat center center / cover;
+}
+
+.box__container{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 110px;
+    display: flex;
+}
+
+.box__wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.box__title{
+    font-size: 48px;
+    color: white;
+    font-family: Roboto;
+    line-height: normal;
+}
+
+.box__text{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    line-height: normal;
+}
+
+.box__btn_b{
+    color: #fdfdfd;
+    background-color: #686C6F;
+    padding: 19px 52px;
+    border-radius: 4px;
+}
+
+.box__btn_g{
+    color: white;
+    background-color: #8DD83D;
+    padding: 20px 52px;
+    border-radius: 4px;
+    display: flex;
+}
+
+/*-sign In*/
+
+
+.reg{
+    width: 300px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 20px;
+}
+.reg_title{
+        ont-weight: 500;
+    }
+.reg_form{
+    width: 220px;
+    margin: 0 auto;
+}
+.reg_input{
+    width: 100%;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 5px 2px;
+    border: none;
+    padding: 13px 20px;
+    margin-bottom: 15px;
+    
+}
+
+
+.reg_btn{
+    color: #fdfdfd;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    padding: 15px 90px;
+    background-color: #8DD83D;
+    border: none;
+}
+.reg_link{
+        color: rgba(0, 0, 0, 0.50);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+
+
+/*end*/
+
+
+.end-_wrap{
+    display: flex;
+}
+
+.end{
+    background-color: #373A3C;
+}
+
+.end__container{
+
+}
+
+.end__menu-item{
+    color: #7DD42F;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.end__menu-g{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
